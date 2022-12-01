@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li,a,button{
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+   
+
+}
+ul{
+    list-style: none;
+}
+.image{
+   width: 100px;
+   height: 100px;
+  border-radius: 100px;
+}
+body{
+    background-color: gray;
+}
+.wrapper{
+    display: flex;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(19, 5, 27, 0.984);
+  min-height: 100vh;
+
+}
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    border-right: #f4f5f6fd solid 0.0001rem;
+    margin-top: 20px;
+    margin-left: 30px;
+
+  }
+  .navbar{
+    margin-top: 50px;
+
+  }
+  .navbar li{
+    margin-top: 10px;
+
+  }
+  .navbar li a {
+    color: white;
+    font-size: 10px;
+    font-family: 'Poppins','sani serif';
+    font-weight: 300;
+    transition: all 0.15s ease ;
+    cursor: pointer;
+    padding: 5px;
+
+  }
+  .navbar li a:hover{
+    background-color: white;
+    color: black;
+
+  }
+  .main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ 
+  }
+  .button{
+    display: inline-block;
+    margin-left: -18%;
+    padding: 5px;
+    
+  }
+  .main p{
+width: 30%;
+margin-top: 30px;
+margin-bottom: 30px;
+font-family: 'Poppins','sans-serif';
+font-size: 10px;
+color: gray;
+
+   }
+   h1{
+    margin-left: -20%;
+    font-family: 'Barlow Semi Condensed',sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+   }
+   .hire{
+    font-size: 7px;
+    padding: 6px 10px;
+    background-color: rgba(19, 5, 27, 0.984);
+    color: white;
+    border: 1px solid white;
+    transition: all 0.15s ease;
+    cursor: pointer;
+   }
+   .porto{
+    font-size: 7px;
+    padding: 6px 10px;
+    background-color: rgba(110, 8, 169, 0.984);
+    color: white;
+    border: none;
+    transition: all 0.15s ease;
+    cursor: pointer;
+   }
+   .porto:hover{
+    background-color: rgba(19, 5, 27, 0.984);
+    border: 1px solid white;
+   }
+ 
+   .hire:hover{
+    background-color: rgba(110, 8, 169, 0.984);
+   }
+ .social{
+    color: white;
+ }
+ .social p{
+   font-size: 6px;
+   color: gray;
+ }
+ .social-icon{
+    font-size: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .fa-brands {
+  margin-right: 10px;
+  }
